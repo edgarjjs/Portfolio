@@ -1,0 +1,24 @@
+/* ESTILOS SECCION DE EXPERIENCIA */
+.experience-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-color: var(--bg-color);
+}
+
+.experience-container:nth-child(1n) {
+  padding-top: 20px;
+}
+
+.experience-title-container {
+  position: absolute;
+  top: -16px;
+  left: 20px;
+  display: inline-block;
+  font-family: var(--font);
+  font-size: 24px;
+  color: var(--primary);
+}

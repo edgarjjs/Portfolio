@@ -1,0 +1,19 @@
+.project-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.project-details,
+.project-photo {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.project-photo img {
+  width: 100%;
+  border-radius: 10px;
+}

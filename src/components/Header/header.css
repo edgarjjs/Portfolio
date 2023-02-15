@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 10px;
+}
+
+.header ul{
+  display: flex;
+  list-style: none;
+}
+
+.header nav a{
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 5px;
+  padding: 5px;
+  color: #8C8D8E;
+}
+
+.header nav ul:first-child {
+  margin-left: 20px;
+}
+
+.header nav a:hover {
+  color: #FBCC6D;
+  border-radius: 3px;
+  border: 2px solid #FBCC6D;
+}

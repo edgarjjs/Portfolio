@@ -1,0 +1,43 @@
+.profile-description {
+  position: relative;
+  font-family: var(--font);
+  color: lightgray;
+  background-color: var(--bg-color-container);
+
+}
+.profile-description p {
+  font-size: 1.5rem;
+  overflow-y: scroll;
+  padding: 30px 20px;
+}
+.profile-description h2 {
+  position: absolute;
+  top: -15px;
+  display: inline-block;
+  width: calc(100% - 40px);
+  padding: 10px 20px;
+  font-size: 2rem;
+  color: var(--secondary);
+  background-color: var(--bg-color-container);
+  border-radius: 15px 15px 0 0 ;
+} 
+
+
+.skills {
+  padding: 0 20px 40px 20px;
+}
+.skills h3 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 15px;
+  text-align: start;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+
