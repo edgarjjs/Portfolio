@@ -1,9 +1,8 @@
 import moviesApp from "../../assets/MoviesApp.png";
-import moviesApp_logo from "../../assets/MoviesApp_logo.png"
-import gitHub from "../../assets/GitHub_icon.svg"
+import moviesApp_logo from "../../assets/MoviesApp_logo.png";
+import gitHub from "../../assets/GitHub_icon.svg";
 
 import "./portfolio.css";
-
 
 export const Portfolio = () => {
   return (
@@ -38,23 +37,27 @@ export const Portfolio = () => {
             Aún están en desarrollo más funciones, el diseño es responsive y
             amigable con el usuario, los datos mostrados son de la API TMDB.
           </div>
+
           <div className="project-links">
-            <a
-              className="project-gh-pages"
-              href="https://edgarjjs.github.io/react-movies-app/"
-              target="_blank"
-            >
-              <img src={moviesApp_logo} alt="" />
-              <p>Ver proyecto</p>
-            </a>
-            <a
-              className="project-gh"
-              href="https://github.com/edgarjjs/react-movies-app.git"
-              target="_blank"
-            >
-              <img src={gitHub} alt="" />
-              <p>Ver código</p>
-            </a>
+            <div className="link">
+              <a
+                href="https://edgarjjs.github.io/react-movies-app/"
+                target="_blank"
+              >
+                <img src={moviesApp_logo} alt="" />
+                Ver proyecto
+              </a>
+            </div>
+
+            <div className="link">
+              <a
+                href="https://github.com/edgarjjs/react-movies-app.git"
+                target="_blank"
+              >
+                <img src={gitHub} alt="" />
+                Ver código
+              </a>
+            </div>
           </div>
         </div>
       </article>
