@@ -13,13 +13,12 @@ html {
   --primary: #FBCC6D;
   --secondary: #00D8FF;
   --bg-color: #1d1d1f;
-  --bg-color-container: #34353A;
-
+  --bg-color-container: #5c5c5c;
 }
 
 
 body {
-  background-color: #34353A;
+  background-color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,7 +28,8 @@ code {
     monospace;
 }
 
-.layout {
-  width: 85%;
-  margin: 0 auto;
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

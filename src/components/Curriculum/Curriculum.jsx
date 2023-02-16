@@ -11,7 +11,7 @@ import "./curriculum.css";
 
 export const Curriculum = () => {
   return (
-    <>
+    <main className="profile-container">
       <section className="profile-description">
         <h2>Perfil</h2>
         <p>
@@ -31,18 +31,17 @@ export const Curriculum = () => {
       </section>
 
       <section className="skills">
-        <h3>Habilidades</h3>
         <div className="cards-container">
+          <h3>Habilidades</h3>
           <SkillCard image={html} name="HTML5" />
           <SkillCard image={css} name="CSS3" />
           <SkillCard image={js} name="JavaScript" />
           <SkillCard image={react} name="React" />
           <SkillCard image={git} name="Git" />
           <SkillCard image={gitHub} name="GitHub" />
-          <SkillCard image={npm} name="npm" />
           <SkillCard image={sass} name="Sass" />
         </div>
       </section>
-    </>
+    </main>
   );
 };

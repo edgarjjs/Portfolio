@@ -1,19 +1,58 @@
+.portfolio-container {
+  background-color: #939393;
+  padding-bottom: 20px;
+}
+
+.portfolio-container h2 {
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px 0 10px 20px;
+  padding-right: 30px;
+  color: var(--bg-color);
+  border-bottom: 4px solid var(--secondary) ;
+}
+
 .project-card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: lightgray;
 }
 
 .project-details,
 .project-photo {
-  width: 50%;
-  padding: 10px;
+  padding: 10px 40px;
+  text-align: start;
+}
+
+.project-photo {
+  max-width: 400px;
+}
+
+.project-details h4 {
   text-align: center;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  color: var(--bg-color);
 }
 
 .project-photo img {
   width: 100%;
   border-radius: 10px;
+}
+
+.moviesApp {
+  font-size: 1.5rem;
+}
+.moviesApp ul li {
+  text-align: start;
+  margin-left: 20px;
+}
+.moviesApp ul li:first-child {
+  padding-top: 10px;
+}
+.moviesApp ul li:last-child {
+  padding-bottom: 10px;
 }

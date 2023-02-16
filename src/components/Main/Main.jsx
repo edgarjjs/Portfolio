@@ -3,7 +3,7 @@ import photo from '../../assets/Photo.jpg'
 
 export const Main = () => {
   return (
-    <main className="main">
+    <section className="main">
       <div className="description">
         <h2>¡Hola!</h2>
         <p>
@@ -11,7 +11,9 @@ export const Main = () => {
         </p>
         <p className="rol">Frontend Developer</p>
       </div>
-      <img className="photo" src={photo}/>
-    </main>
+      <div className="photo-container">
+        <img src={photo}/>
+      </div>
+    </section>
   );
 };

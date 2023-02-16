@@ -1,29 +1,35 @@
 import "./portfolio.css";
-import photo from '../../assets/Photo.jpg'
+import moviesApp from "../../assets/MoviesApp.png";
 
 export const Portfolio = () => {
   return (
-    <section>
-      <h3>Portafolio</h3>
+    <section className="portfolio-container">
+      <h2>Portafolio</h2>
       <article className="project-card">
+        <div className="project-photo">
+          <img src={moviesApp} alt="" />
+        </div>
+
         <div className="project-details">
           <h4>MoviesApp (En desarrollo)</h4>
-          <p>
-            MoviesApp me permite ver la información de una película.
-            <br/>
-            Puedo ver el perfil de cada actor para conocer su fecha de nacimiento, popularidad, biografía, saber cuales son sus 10 peliculas más famosas en las que ha trabajado y más. Puedo saber cuales son las 5 peliculas en trending del día. 
-            <br/>
-            Puedo ver las series más relevantes de algunas plataformas de streaming.
-            <br/>
-            Puedo ver las 20 películas más relevantes de cada género al igual que las series. En los detalles de cada serie puedo ver sus temporadas, y de cada temporada la descripción y capítulos.
-            <br/>
-            Para el buscador desarrollé un filtro para evitar contenido inapropiado, pero siempre dependerá de la información que suministra la API de cada resultado y no será 100% exacto.
-            <br/>
-            Aún están en desarrollo más funciones, el diseño es responsive y amigable con el usuario, los datos mostrados son de la API TMDB.
-          </p>
-        </div>
-        <div className="project-photo">
-          <img src={photo} alt="" />
+          <div className="moviesApp">
+            Con MoviesApp puedo Ver:
+            <ul>
+              <li>Los detalles de una película.</li>
+              <li>El perfil de cada actor</li>
+              <li>Las 5 peliculas en trending del día.</li>
+              <li>Las series más relevantes de algunas plataformas de streaming.</li>
+              <li>Las 20 películas más relevantes de cada género sea película o serie. </li>
+              <li>Los detalles de temporadas de las series</li>
+            </ul>
+
+            Para el buscador desarrollé un filtro para evitar contenido
+            inapropiado, pero siempre dependerá de la información que suministra
+            la API de cada resultado y no será 100% exacto.
+            <br />
+            Aún están en desarrollo más funciones, el diseño es responsive y
+            amigable con el usuario, los datos mostrados son de la API TMDB.
+          </div>
         </div>
       </article>
     </section>

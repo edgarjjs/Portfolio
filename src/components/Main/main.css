@@ -14,11 +14,11 @@
   color: #E7E7EA;
 }
 
-.description h2{
+.description h2 {
   font-size: 2.7rem;
 }
 
-.description p{
+.description p {
   font-weight: 400;
   font-size: 1.8rem;
 }
@@ -28,12 +28,17 @@
   color: #FBCC6D;
 }
 
-.rol{
+.rol {
   font-weight: 200;
 }
 
-.photo{
-  width: 30%;
+.photo-container {
+  min-width: 100px;
+  max-width: 150px;
+}
+
+.photo-container img {
+  width: 100%;
   border-radius: 100%;
 }
 

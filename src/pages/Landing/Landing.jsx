@@ -1,4 +1,3 @@
-import { Header } from "../../components/Header/Header";
 import { Main } from "../../components/Main/Main";
 import { Curriculum } from "../../components/Curriculum/Curriculum";
 import { Footer } from "../../components/Footer/Footer";
@@ -8,12 +7,12 @@ import { Experience } from "../../components/Experience/Experience";
 
 export const Landing = () => {
   return (
-    <>
+    <div className="landing">
       <Main />
       <Curriculum />
       <Experience />
       <Portfolio />
       <Footer />
-    </>
+    </div>
   );
 };
