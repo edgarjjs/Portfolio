@@ -56,3 +56,33 @@
 .moviesApp ul li:last-child {
   padding-bottom: 10px;
 }
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.project-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  border: 2px solid var(--bg-color);
+}
+
+.project-links p {
+  padding: 10px;
+}
+
+.project-links img {
+  height: 90%;
+  padding: 10px;
+}
